@@ -1,3 +1,29 @@
+// 4th part
+// $(selector).action();
+
+// $('div').text('hello world') zmena veskereho textu na hello world;
+
+$('p').css('background', 'purple');
+
+$('p').html('<strong>hello world</strong>');
+
+$('p').append('<strong>another</strong>');
+
+// $('div').remove();
+
+$('button').click(() => {
+    $('.first').toggleClass('hidden')
+})
+
+
+
+ // $('div').css('background', 'purple') zmena barevneho pozadi;
+
+ // $('.third').toggleClass('hidden') necha zmizet something;
+
+
+
+// From 1st part to the 3rd
 console.log("JavaScript is working!");
 let colors = ["orange", "blue", "green", "purple"];
 let post = {
